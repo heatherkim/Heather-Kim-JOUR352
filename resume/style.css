@@ -6,39 +6,53 @@ body {
   font-weight: 400;
 }
 
+#container {
+  with: 100%;
+  max-width: 900 px;
+  margin: 0 auto;
+}
+
 /*banner name at top*/
-H1 {
+#name {
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 /*title*/
 strong {
   font-size: 1.5em;
   text-transform: uppercase;
-  color: #33485e; 
+  color: #33485e;
 }
 
 /*section titles*/
-H2 {
+.sectionheader {
   font-size: 1.5em;
   color: #fff;
   background-color: #33485e;
   text-transform: uppercase;
   font-weight: 100;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 70%;
+  min-width: 300px;
 }
 /*job titles*/
-H3 {
+#jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
 
 /*job organization*/
-h4 {
+.organization {
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /*job date*/
