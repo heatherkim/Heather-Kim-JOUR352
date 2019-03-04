@@ -7,8 +7,8 @@ body {
 }
 
 #container {
-  with: 100%;
-  max-width: 1200 px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
 }
@@ -53,7 +53,7 @@ body {
   min-width: 300px;
 }
 /*job titles*/
-#jobtitle {
+.jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
@@ -83,14 +83,21 @@ body {
 }
 
 .menu li {
-  margin: 0px;
-  padding: 0px;
   display: inline;
   list-style-type: none;
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 #degrees {
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+#do {
   margin-top: 5px;
   margin-left: 0px;
   margin-right: 0px;
