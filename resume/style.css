@@ -29,6 +29,7 @@ strong {
   font-size: 1.5em;
   text-transform: uppercase;
   color: #33485e;
+
 }
 
 /*section titles*/
@@ -66,4 +67,14 @@ strong {
   margin-right: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+
+ul.menu li{
+  display: inline;
 }
