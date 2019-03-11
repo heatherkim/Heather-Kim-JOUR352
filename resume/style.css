@@ -7,9 +7,10 @@ body {
 }
 
 #container {
-  with: 100%;
-  max-width: 900 px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 /*banner name at top*/
@@ -25,7 +26,13 @@ body {
 }
 
 /*title*/
-strong {
+#title {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
   font-size: 1.5em;
   text-transform: uppercase;
   color: #33485e;
@@ -47,7 +54,7 @@ strong {
   min-width: 300px;
 }
 /*job titles*/
-#jobtitle {
+.jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
@@ -69,12 +76,40 @@ strong {
   margin-bottom: 0px;
 }
 
-.menu {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-  }
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
-ul.menu li{
+/*links but text align refuses to transfer*/
+.menu li {
   display: inline;
+  list-style-type: none;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#degrees {
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+#do {
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+/*made sure to keep this style at the bottom*/
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }

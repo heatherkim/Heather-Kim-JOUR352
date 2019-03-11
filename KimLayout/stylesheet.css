@@ -1,0 +1,39 @@
+#content {
+  width:900px;
+  margin: 0 auto;
+}
+
+.byline {
+  font: helvetica;
+  font-size: 14pt;
+  font-style: italic;
+}
+
+h1 {
+  font: helvetica;
+  font-family: arial,sans-serif;
+  font-size: 25pt;
+}
+
+p {
+  font: georgia;
+  font-family: serif;
+  font-size: 13pt
+}
+
+.caption {
+  font: helvetica;
+  font-size: 12pt;
+  font-style: italic;
+}
+
+blockquote {
+  font: 24px helvetica;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: red;
+  margin-left: 50px;
+  padding-left: 15px;
+  border left: 4px solid #ccc;
+}
