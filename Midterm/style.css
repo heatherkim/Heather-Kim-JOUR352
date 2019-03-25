@@ -1,0 +1,44 @@
+/*use storycontent div id to make one column*/
+#storycontent {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  font-family: helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.caption {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+blockquote {
+  font: 16px helvetica, sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: red;
+  text-align: center;
+}
+
+.profile {
+  font-weight: bold;
+}
+
+.banner {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
