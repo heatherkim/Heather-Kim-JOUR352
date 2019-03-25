@@ -1,0 +1,46 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.jumbotron {
+  color: black;
+  text-align: center;
+  background: white;
+}
+.btn btn-default {
+  font-weight: bold;
+}
+h1 h2 {
+  font-weight: bold;
+}
+.col-md-6 {
+  text-align: center;
+}
+.col-md-3 {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.jobtitle {
+  text-align: left;
+  font-size: 1.5em;
+  color: #7f90da;
+  width: 25%;
+  min-width: 400px;
+  font-weight: bold;
+}
+.organizationdate {
+  text-align: left;
+  font-size: 1em;
+  width: 12.5%;
+  min-width: 300px;
+  font-weight: bold;
+}
+.description {
+  text-align: left;
+}
+footer {
+  background-color: #fdc689;
+}
