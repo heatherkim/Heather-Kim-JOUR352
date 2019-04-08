@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.caption {
+  font-style: italic;
+}
+.row {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
