@@ -68,46 +68,57 @@
 
 <div class="container">
   <br>
-  <h1>The Headline Goes Here</h1>
+  <h1>The Fight for Recognition: How student activism lead to victory for the Asian American community at UMD</h1>
   <br>
-  <h5>By Byline</h5>
+  <h5>By Heather Kim</h5>
   <br>
 
   <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1wtcW3r88rNtq-upNnowSZF2U3YycbXg24Eo_mKTWGqc&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 
-  <h3>Chapter Headline</h3>
-  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  <h3>Background</h3>
+  <p>Within 49 years, the Asian American community at the University of Maryland, College Park went from being hardly recognized to hardly recognizable. By this, I mean that the Asian American Pacific Islander (AAPI) community has evolved to a point where students from just a few decades ago could hardly hope for. <br><br>
+	In 1970, Shirley Hune taught the first Asian American studies course at UMD, however it would not be until 30 years later that the official program for Asian American Studies (AAST) is created. <br><br>
+	The AAST program continues to grow at UMD year after year, along with the university’s growing AAPI population. However, what some students may not know is that the AAST program was created as a result of student engagement and activism. <br><br>
+	The fight for AAST to be recognized officially started in 1995, according to the AAST’s annual report from this past year. In the next five years that followed, students along with the support of staff members and fellow community leaders, such as members of the Black Student Union, continued to advocate for a new AAST program. The proposal was repeatedly shelved and ignored for years.</p>
 
 <img src=landscape.jpg>
 <div class=caption>caption: insert image or video or graphic or whatever above
 </div>
 <br>
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+<p>Students organized protests, sit-ins, teach-ins, high school visits and informational sessions. One specific instance that is cited on the AAST website is when during one protest in front of the Adele H. Stamp Student Union, a leader from the Black Student Union pushed students to march to the Administration building. <br><br>
+	During this demonstration a crowd of approximately 200 students began to chant “Asian American Studies Now!” Following this march, staff and student leaders met with the university president to negotiate the program. This became a catalyst for the rest of the movement, leading to the creation of a task force specifically focused on furthering the AAST proposal, and later the approval of the AAST program in 2000.</p>
 </div>
 </div>
 
 <br>
+
+<!-- line chart container -->
+<div class="graphic-container">
+ <h2>UMD Asian American/Pacific Islander Undergraduate Enrollment</h2>
+ <p>The number of Asian American Pacific Islander (AAPI) students at UMD  has increased at an accelerated rate following a slight dip in 2012. The data includes undergraduate students who identify as Asian American or Pacific Islander. As of 2017, Asian American students made up approximately 20 percent of UMD's undergraduate population, making AAPI students the largest minority group on campus. </p>
+ <div id="myLineChart"></div>
+ <em>Source: Data collected by UMD's Campus Counts, Office of Institutional Research, Planning & Assessment</em>
+</div>
+<!-- END line chart container -->
+
+<br>
+ <p>Just within the last seven years, the AAPI population at UMD has increased at an accelerated rate. Asian American students now make up more than 20 percent of UMD’s campus. This makes Asian Americans the second largest racial group on campus following whites.
+</p>
+
 <!-- aast minors container -->
 <div class="graphic-container">
-<h2>Where do school shootings occur?</h2>
-<p>The location of a shooting incident is more likely to occur in cities, however a substantial amount have also occurred in suburbs and towns.</p>
+<h2>Number of Enrolled AAST Minors</h2>
+<p>The Asian American Studies (AAST) Program was officially approved by the University Senate in 2000, however the minor was not approved until 2007. Within a matter of a few years, the amount of AAST minors has almost tripled in size.</p>
 <div id="shootingsByTypeChart"></div>
-<em>Source: Data collected by The Washington Post</em>
+<em>Source: Data collected by The Asian American Studies Program Annual Report</em>
 </div>
 <!-- END aast minors container -->
 
 <br>
 
-  <!-- line chart container -->
- <div class="graphic-container">
-   <h2>Shootings by year</h2>
-   <p>The number of shootings per year has generally remained high in the US since the turn of the century, with noticable dips in 2002, 2011 and 2015. The last three years, the number of shootings has been consistantly high.</p>
-   <div id="myLineChart"></div>
-   <em>Source: Data collected by The Washington Post</em>
- </div>
- <!-- END line chart container -->
-
-    <div id="myLineChart"></div>
+<p>Since 2013, the amount of enrolled AAST minors at UMD has more than doubled. This statistic also implicates that the amount of students learning about AAPI issues, advocacy, history and culture has more than doubled in the last few years.
+	In a time where the voices of marginalized communities continue to be underrepresented and ignored, students can look back on the actions of past students and see what raising their voices can do.
+</p>
 
 <br>
 
@@ -144,15 +155,11 @@ var chart2 = c3.generate({
       bindto: '#shootingsByTypeChart',
       data: {
         columns: [
-          ['Targeted', 130],
-          ['indiscriminate', 42],
-          ['Accidental', 25],
-          ['Targeted and indiscriminate', 5],
-          ['Public suicide', 4],
-          ['Unclear', 3],
-          ['hostage suicide', 2],
-          ['Accidental or targeted', 2],
-          ['Public suicide (attempted)', 1]
+          ['2012', 15],
+          ['2013', 22],
+          ['2014', 50],
+          ['2017', 41],
+          ['2018', 50],
         ],
         type: 'bar'
       },
@@ -170,8 +177,8 @@ var chart2 = c3.generate({
      data: {
        x: 'x',
        columns: [
-         ['x', 2014, 2015, 2016, 2017, 2018],
-         ['Number of xx', 16, 7, 13, 14, 12],
+         ['x', 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+         ['Number of Enrolled Undergradute AAPI Students ', 4050, 4013, 3984, 4138, 4320, 4472, 4674, 5036, 5338],
        ]
      },
      color: {
