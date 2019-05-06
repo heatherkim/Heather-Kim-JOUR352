@@ -35,6 +35,10 @@ h1 {
   font-size: 3em;
   font-weight: 700;
 }
+
+span {
+  color: #0052a5;
+}
 h5 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -55,6 +59,14 @@ h5 {
   text-align: left;
   font-family: 'PT Serif', serif;
   font-size: 1em;
+}
+
+.chapter-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  padding-top: 20px;
+  width: 100%;
 }
 h3 {
   font-family: 'Montserrat', sans-serif;
@@ -83,9 +95,23 @@ h3 {
  font-family: 'Montserrat', sans-serif;
  color:#999;
 }
+.graphic container h2 {
+  font-size: 2em;
+}
+.graphic-container {
+ padding-top:30px;
+ padding-bottom:30px;
+ border-top:1px solid #cdcdcd;
+ border-bottom:1px solid #cdcdcd;
+ font-family: 'Montserrat', sans-serif;
+ margin:0 auto;
+}
 
 footer {
+  font-family: 'Montserrat';
   text-align: center;
   background-color: black;
+  height: 100px;
   color: white;
+  padding: 25px;
 }
