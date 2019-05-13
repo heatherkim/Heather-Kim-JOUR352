@@ -1,0 +1,62 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Patua One', cursive;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Patua One', sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  max-width: 1000px;
+}
+
+.navbar {
+ font-family: 'Patua One', sans-serif;
+
+}
+.bg-dark {
+ background:#000 !important;
+}
+
+ul.navbar-nav {
+ margin-left:70%;
+}
+
+h5 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.caption {
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+}
+.row {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 80px;
+}
+.graphic-container {
+ padding-top:30px;
+ padding-bottom:30px;
+ border-top:1px solid #cdcdcd;
+ border-bottom:1px solid #cdcdcd;
+ font-family: 'Montserrat', sans-serif;
+ margin:0 auto;
+ max-width: 900px;
+}
+.container {
+  max-width: 1000px;
+}

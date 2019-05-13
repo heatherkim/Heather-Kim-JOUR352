@@ -1,0 +1,186 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ <title>Bootstrap Template</title>
+ <meta name="description" content="Merrill College of Journalism, UMD">
+ <meta name="author" content="Heather Kim">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   <!-- Custom CSS -->
+    <link rel="stylesheet" href="final-style.css">
+
+   <!-- Load c3.css -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+
+      <!-- Load d3.js and c3.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+
+      <!--google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Patua+One" rel="stylesheet">
+ </head>
+
+ <body>
+   <!-- navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ <a class="navbar-brand" href="#">The Fight to be Recognized</a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   <ul class="navbar-nav mr-auto">
+     <li class="nav-item">
+       <a class="nav-link" href="#background">Background</a>
+       <li class="nav-item">
+         <a class="nav-link" href="#over the years">Over the Years</a>
+         <li class="nav-item">
+           <a class="nav-link" href="#what's next">What's Next</a>
+     </li>
+   </ul>
+ </div>
+ </nav>
+ <!-- end navbar -->
+
+<img src=title-image.png>
+<div class="container">
+  <br>
+  <h1><center>How student activism lead to victory for the Asian American community at UMD</h1></center>
+  <br>
+  <h5>By Heather Kim</h5>
+  <br>
+
+  <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1wtcW3r88rNtq-upNnowSZF2U3YycbXg24Eo_mKTWGqc&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+
+<a name="background"></a>
+  <h3>Background</h3>
+  <p>Within 49 years, the Asian American community at the University of Maryland, College Park went from being hardly recognized to hardly recognizable. By this, I mean that the Asian American Pacific Islander (AAPI) community has evolved to a point where students from just a few decades ago could hardly hope for. <br><br>
+	In 1970, Shirley Hune taught the first Asian American studies course at UMD, however it would not be until 30 years later that the official program for Asian American Studies (AAST) is created. <br><br>
+	The AAST program continues to grow at UMD year after year, along with the university’s growing AAPI population. However, what some students may not know is that the AAST program was created as a result of student engagement and activism. <br><br>
+
+  <img src=aasu-logos.png>
+
+  <div class=caption>The Asian American Student Union logos over time. From left: 2012, 2014, 2016. (2016 Logo by: Charlotte Li. Other logos: Courtesy of AASU)
+  </div>
+<br>
+	<p>The fight for AAST to be recognized officially started in 1995, according to the AAST’s annual report from this past year. In the next five years that followed, students along with the support of staff members and fellow community leaders, such as members of the Black Student Union, continued to advocate for a new AAST program. The proposal was repeatedly shelved and ignored for years.</p>
+
+<br>
+<p>Students organized protests, sit-ins, teach-ins, high school visits and informational sessions. One specific instance that is cited on the AAST website is during a protest in front of the Adele H. Stamp Student Union, a leader from the Black Student Union pushed students to march to the Administration building. <br><br>
+	During this demonstration a crowd of approximately 200 students began to chant “Asian American Studies Now!” Following this march, staff and student leaders met with the university president to negotiate the program. This became a catalyst for the rest of the movement, leading to the creation of a task force specifically focused on furthering the AAST proposal, and later the approval of the AAST program in 2000.</p><br>
+
+<a name="over the years"></a>
+    <h3>AAST Over the Years</h3>
+</div>
+</div>
+<!-- line chart container-->
+<div class="graphic-container">
+  <center><div class="graphic container h2"><h2>UMD Asian American/Pacific Islander Undergraduate Enrollment</h2></div></center>
+  <p>The number of Asian American Pacific Islander (AAPI) students at UMD  has increased at an accelerated rate following a slight dip in 2012. The data includes undergraduate students who identify as Asian American or Pacific Islander. As of 2017, Asian American students made up approximately 20 percent of UMD's undergraduate population, making AAPI students the largest minority group on campus.</p>
+  <div id="myLineChart"></div>
+  <em>Source: Data collected by UMD's Campus Counts, Office of Institutional Research, Planning & Assessment</em>
+<!-- END graphic container-->
+<br>
+
+<br>
+ <p>Just within the last seven years, the AAPI population at UMD has increased at an accelerated rate. Asian American students now make up more than 20 percent of UMD’s campus. This makes Asian Americans the second largest racial group on campus following whites.
+</p>
+
+<!-- aast minors container -->
+<div class="graphic-container">
+<h2>Number of Enrolled AAST Minors</h2>
+<p>The Asian American Studies (AAST) Program was officially approved by the University Senate in 2000, however the minor was not approved until 2007. Within a matter of a few years, the amount of AAST minors has almost tripled in size.</p>
+<div id="shootingsByTypeChart"></div>
+<em>Source: Data collected by The Asian American Studies Program Annual Report</em>
+</div>
+<!-- END aast minors container -->
+</div>
+
+<br>
+<div class="container">
+  <a name="what's next"></a>
+<h3>What's Next</h3>
+<p>Since 2013, the amount of enrolled AAST minors at UMD has more than doubled. This statistic also implicates that the amount of students learning about AAPI issues, advocacy, history and culture has more than doubled in the last few years.
+However, according to Phil Tajitsu Nash, an adjunct professor and the first professor to teach an official AAST course at UMD, the community was not always as united as it is now.<br><br>
+
+"When I was here 24 years ago, there was a consciousness that was just growing. I think in a way we had people that were aware of themselves being Asian or Asian American, but there wasn't a group feeling. There wasn't a cohesiveness."<br><br>
+
+However Tajitsu Nash goes on to say that with the help of the AAST program, students came together over time to discuss shared experiences and how to foster a stronger sense of unity.<br><br>
+
+<center><iframe src="https://player.vimeo.com/video/132251022" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/132251022">Asian American Studies Program</a> from <a href="https://vimeo.com/aastumd">Asian American Studies Program</a> on <a href="https://vimeo.com">Vimeo</a>.</p></center>
+
+<p>"I think this program helped to bring those people together, provide a safe space for people to think about those issues, and also tie people together with the broader women’s movement, people of color movement, LGBT movement - all those different movements about people who have been pushed to the margins. Asian American studies has created a place for us.” <br><br>
+
+  In a time where the voices of marginalized communities continue to be underrepresented and ignored, students can look back on the actions of past students and see what raising their voices can do. <br><br>
+
+"It’s all good... we’re still moving in the right direction.”"</p>
+</p>
+  <img src=charlotte.jpg>
+  <div class=caption>Charlotte Li, one of AASU's past board members, poses with the new shirt she designed for the organization. (Photo by: Heather Kim)<br><br>
+  </div>
+</div>
+
+<footer>
+  <br>
+  Copyright 2019 Heather Kim
+  <br>
+</footer>
+
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- bar chart -->
+<script>
+var chart2 = c3.generate({
+      bindto: '#shootingsByTypeChart',
+      data: {
+        columns: [
+          ['2012', 15],
+          ['2013', 22],
+          ['2014', 50],
+          ['2017', 41],
+          ['2018', 50],
+        ],
+        type: 'bar'
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+      }
+    });
+</script>
+
+    <!-- c3 script-->
+   <script type="text/javascript">
+   //CHART 1
+   var chart = c3.generate({
+     bindto: '#myLineChart',
+     data: {
+       x: 'x',
+       columns: [
+         ['x', 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+         ['Number of Enrolled Undergradute AAPI Students ', 4050, 4013, 3984, 4138, 4320, 4472, 4674, 5036, 5338],
+       ]
+     },
+     color: {
+       pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+     }
+   });
+</script>
+
+ </body>
+</html>
