@@ -46,6 +46,7 @@ footer {
   text-align: center;
   background-color: black;
   color: white;
+  height: 80px;
 }
 .graphic-container {
  padding-top:30px;
